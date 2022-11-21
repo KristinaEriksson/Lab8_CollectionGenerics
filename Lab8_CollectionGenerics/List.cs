@@ -51,7 +51,7 @@ namespace Lab8_CollectionGenerics
             List<Employee> allMaleEmployees = listEmployee.FindAll(e => e.Gender == 'M');
             Console.WriteLine("All males on the list:\n");
             
-            // Outout all the male employees
+            // Output all the male employees
             foreach (var employee in allMaleEmployees)
             {
                 Console.WriteLine($"ID = {employee.EmpId}, Name = {employee.Name}, Gender = {employee.Gender}, Salary = {employee.Salary}");
